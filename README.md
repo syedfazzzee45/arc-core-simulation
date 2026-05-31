@@ -60,35 +60,37 @@ Next step: build the first 2D robot movement simulation using Python.
 - Add visualization
 - Connect with control and navigation modules
 
-How to Run
+## How to Run
 
 Install dependencies:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Run the basic robot movement simulator:
 
-python3 src/robot_simulator.py
+    python3 src/robot_simulator.py
 
 Run the grid world example:
 
-PYTHONPATH=. python3 examples/run_grid_world.py
+    PYTHONPATH=. python3 examples/run_grid_world.py
 
 Run the A* path planning simulation:
 
-PYTHONPATH=. python3 examples/run_path_planning.py
+    PYTHONPATH=. python3 examples/run_path_planning.py
 
-Demo Output
+## Demo Output
 
-A* Path Planning Simulation
+### A* Path Planning Simulation
 
 The A* planner calculates a path from a start position to a goal position while avoiding obstacles in a grid world.
 
-Current Features
+![A* Path Planning Demo](outputs/path_planning_demo.png)
 
-* Basic robot movement simulation
-* Grid world environment
-* Obstacle placement
-* Blocked movement detection
-* A* path planning from start to goal
-* Visualization using Matplotlib
+## Current Features
+
+- Basic robot movement simulation
+- Grid world environment
+- Obstacle placement
+- Blocked movement detection
+- A* path planning from start to goal
+- Visualization using Matplotlib

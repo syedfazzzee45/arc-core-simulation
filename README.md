@@ -66,3 +66,20 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+
+## **Demo Output**
+
+### A* Path Planning Simulation
+
+The A* planner calculates a path from a start position to a goal position while avoiding obstacles in a grid world.
+
+![A* Path Planning Demo](outputs/path_planning_demo.png)
+
+## **Current Features**
+
+- Basic robot movement simulation
+- Grid world environment
+- Obstacle placement
+- Blocked movement detection
+- A* path planning from start to goal
+- Visualization using Matplotlib

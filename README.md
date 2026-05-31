@@ -94,3 +94,5 @@ The A* planner calculates a path from a start position to a goal position while 
 - Blocked movement detection
 - A* path planning from start to goal
 - Visualization using Matplotlib
+- Simulated distance sensor readings
+- Obstacle distance scanning in four directions

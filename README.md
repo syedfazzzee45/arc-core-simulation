@@ -106,3 +106,12 @@ The A* planner calculates a path from a start position to a goal position while 
 - Obstacle distance scanning in four directions
 - Visualization using Matplotlib
 - Navigation loop with sensor readings at each step
+
+## Roadmap
+
+- Add sensor noise simulation
+- Add dynamic obstacles
+- Add path replanning when obstacles are detected
+- Add control-system simulation
+- Add animated robot movement
+- Connect this core simulation to future robotics modules

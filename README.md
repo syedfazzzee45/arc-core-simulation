@@ -77,6 +77,11 @@ Run the grid world example:
 Run the A* path planning simulation:
 
     PYTHONPATH=. python3 examples/run_path_planning.py
+    
+Run the sensor simulation:
+
+    PYTHONPATH=. python3 examples/run_sensors_simulation.py
+
 
 ## Demo Output
 
@@ -96,3 +101,4 @@ The A* planner calculates a path from a start position to a goal position while 
 - Visualization using Matplotlib
 - Simulated distance sensor readings
 - Obstacle distance scanning in four directions
+- Visualization using Matplotlib

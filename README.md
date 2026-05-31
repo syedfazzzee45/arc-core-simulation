@@ -59,3 +59,10 @@ Next step: build the first 2D robot movement simulation using Python.
 - Add sensor simulation
 - Add visualization
 - Connect with control and navigation modules
+
+## How to Run
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt

@@ -82,6 +82,9 @@ Run the sensor simulation:
 
     PYTHONPATH=. python3 examples/run_sensors_simulation.py
 
+Run navigation with sensor readings:
+
+    PYTHONPATH=. python3 examples/run_navigation_with_sensors.py
 
 ## Demo Output
 
@@ -102,3 +105,4 @@ The A* planner calculates a path from a start position to a goal position while 
 - Simulated distance sensor readings
 - Obstacle distance scanning in four directions
 - Visualization using Matplotlib
+- Navigation loop with sensor readings at each step
